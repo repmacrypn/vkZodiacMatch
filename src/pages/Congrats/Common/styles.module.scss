@@ -1,10 +1,12 @@
 @import 'src/styles/resourses/variables.scss';
 
 .name {
+    overflow-wrap: break-word;
+    max-width: 300px;
     margin: 10px;
     font-size: 42px;
     color: rgb(124, 29, 29);
-    display: block;
+    display: inline-block;
 }
 
 .zodiac{
