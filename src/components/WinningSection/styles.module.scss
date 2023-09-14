@@ -1,0 +1,35 @@
+@import 'src/styles/resourses/variables.scss';
+
+.data {
+    font-size: 22px;
+    &>div {
+        margin: 15px 8px;
+    }
+}
+
+.content {
+    padding: 0 15px;
+}
+
+.matchTitle{
+    font-size: 32px;
+    font-weight: 500;
+    color: rgb(235, 69, 69);
+}
+
+.matchAbstract{
+    display: inline-block;
+    border-bottom: 1px solid black;
+    font-size: 24px;
+}
+
+.match{
+    margin-top: 25px;
+    font-size: 26px;
+    font-weight: 500;
+    color: rgb(235, 69, 69);
+}
+
+.listItem{
+    margin: 10px;
+}
