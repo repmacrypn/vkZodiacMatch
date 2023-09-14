@@ -27,7 +27,7 @@ export const Section = () => {
                 <Name className='zodiac' name={zodiacValue2 || '(secret)'} />
             </div>
             <div className={styles.match}>Совместимы:</div>
-            <div>{match}</div>
+            <div className={styles.list}>{match}</div>
         </section>
     )
 }
