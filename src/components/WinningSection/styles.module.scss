@@ -2,16 +2,14 @@
 
 .data {
     font-size: 22px;
-    &>div {
-        margin: 15px 8px;
-    }
 }
 
 .content {
-    padding: 0 15px;
+    padding:  15px;
 }
 
 .matchTitle{
+    margin: 20px;
     font-size: 32px;
     font-weight: 500;
     color: rgb(235, 69, 69);
@@ -24,7 +22,6 @@
 }
 
 .match{
-    margin-top: 25px;
     font-size: 26px;
     font-weight: 500;
     color: rgb(235, 69, 69);
@@ -32,6 +29,7 @@
 
 .list{
     display: inline-block;
+    margin: 0 auto 30px;
     text-align: left;
 }
 
